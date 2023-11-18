@@ -1,8 +1,9 @@
 {
   "packageRules": [
     {
+      "matchManagers": ["npm"],
       "matchCurrenAge": "> 1 years",
-      "enabled": false
+      "labels": ["npm-and-old"]
     }
   ]
 }
